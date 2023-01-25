@@ -23,6 +23,7 @@ namespace Survivor.Characters.Enemies
         private void Start()
         {
             InitializeLimits();
+            counter = spawnCooldown;
         }
 
         private void InitializeLimits()

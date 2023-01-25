@@ -31,6 +31,8 @@ namespace Survivor.Characters.Enemies
 
         private void Update()
         {
+            counter += Time.deltaTime;
+
             switch (enemyState)
             {
                 case EnemyState.CHASE:
@@ -53,7 +55,6 @@ namespace Survivor.Characters.Enemies
 
         private void HitPlayer()
         {
-            counter += Time.deltaTime;
             if (counter >= hitCooldown)
             {
                 Debug.Log("Hit");
