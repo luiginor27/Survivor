@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Survivor.Enemies
+namespace Survivor.Characters.Enemies
 {
     public class EnemySpawner : MonoBehaviour
     {

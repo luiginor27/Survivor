@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Survivor.Player
+namespace Survivor.Characters.Player
 {
     public class PlayerController : MonoBehaviour
     {
